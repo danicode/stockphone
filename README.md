@@ -179,7 +179,7 @@ Fig. 10: Menú de la ventana Lista de Pedido.
 
 ¿Qué se puede hacer?
    
-    Aquí podrá verificar si la lista de pedido está cargada correctamente antes de generar el archivo CSV para así poder realizar el pedido a los correspondientes proveedores.
+ Aquí podrá verificar si la lista de pedido está cargada correctamente antes de generar el archivo CSV para así poder realizar el pedido a los correspondientes proveedores.
 
 Explicación de los componentes de esta sección:
 
