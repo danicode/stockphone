@@ -148,7 +148,8 @@ Fig. 7: Menú de la ventana de lista de artículos.
 ¿Qué se puede hacer?
    
  Aquí podrá buscar el artículo que desea reponer seleccionarlo y agregarlo a la lista de pedido al igual que la sección de lista de artículos. También podrá editar la cantidad de artículos o su eliminación.
-Explicación de los componentes de esta sección:
+ 
+ Explicación de los componentes de esta sección:
 
    En la parte superior de la ventana tenemos dos etiquetas, una de ellas A-Z: nos dice el tipo de ordenamiento al filtrar la lista y la otra etiqueta es Filtro: nos indica el tipo de filtro. 
 
