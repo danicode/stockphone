@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    style="@style/StockPhoneTheme">
+    
+      
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"        
+        android:orientation="vertical"
+        android:layout_weight="1">
+        
+        <TextView
+            android:paddingTop="15dp"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginTop="10dp"
+        	style="@style/StockPhoneTextAppearance"
+        	android:text="@string/lblUser"/>
+
+    	<EditText
+        	android:id="@+id/txtUser"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:singleLine="true" 
+        	android:inputType="textPersonName"/>"
+
+    	<TextView
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	style="@style/StockPhoneTextAppearance"
+        	android:text="@string/lblPassword" />
+
+    	<EditText
+        	android:id="@+id/txtPassword"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:inputType="textPassword"
+        	android:singleLine="true" />
+
+    	<LinearLayout
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_marginTop="10dp"
+        	android:layout_weight="0"
+        	android:gravity="center_horizontal"
+        	android:orientation="horizontal">
+
+        	<Button
+            	android:id="@+id/btnOk"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_weight="1"
+            	android:onClick="btnOkSetOnClickListener"
+            	android:text="@string/btnOk" />
+
+        	<Button
+            	android:id="@+id/btnCancel"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_weight="1"
+            	android:onClick="btnCancelSetOnClickListener"
+            	android:text="@string/btnCancel" />
+    	</LinearLayout>
+
+   		<TextView
+        	android:id="@+id/lblErrorlogin"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text=""
+        	style="@style/StockPhoneTextPasswordAppearance"/>
+        
+    </LinearLayout>
+
+        <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+		android:src="@drawable/ic_stockphone_landscape"/>     
+    
+</LinearLayout>

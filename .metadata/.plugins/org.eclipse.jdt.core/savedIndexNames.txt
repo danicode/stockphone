@@ -1,0 +1,3 @@
+INDEX VERSION 1.126+C:\Users\dani\workspace\StockPhone\.metadata\.plugins\org.eclipse.jdt.core
+2932471702.index
+2704648151.index

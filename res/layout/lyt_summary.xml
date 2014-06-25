@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    style="@style/StockPhoneTheme">		
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#dfdfdf">
+        
+        <TextView 
+            android:id="@+id/lblSummaryTitleUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lblSummaryUser"
+            android:layout_weight="0"
+            android:textColor="#000"
+            style="@style/StockPhoneTextTitleAppearance"/>
+        
+        <TextView 
+            android:id="@+id/lblSummaryUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="lala"
+            android:paddingRight="7dp"
+            android:textColor="#000"
+            style="@style/StockPhoneTextAppearance"/>
+        
+        <TextView 
+            android:id="@+id/lblSummaryTitleDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lblSummaryTitleDate"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textColor="#000"
+            style="@style/StockPhoneTextTitleAppearance"/>
+        
+        <TextView 
+            android:id="@+id/lblSummaryDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12-04-2012"
+            android:paddingRight="7dp"
+            android:textColor="#000"
+            style="@style/StockPhoneTextAppearance"/>
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#dfdfdf">
+        
+        <TextView 
+        	android:id="@+id/lblSummaryTitleHour"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:text="@string/lblSummaryTitleHour"
+        	style="@style/StockPhoneTextTitleAppearance"
+        	android:layout_weight="1"
+        	android:textColor="#000"
+        	android:paddingRight="7dp"
+        	android:gravity="right"/>
+    
+   		<TextView 
+        	android:id="@+id/lblSummaryHour"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="12:00"       	
+        	android:textColor="#000"
+        	style="@style/StockPhoneTextAppearance"
+        	android:paddingRight="44dp"/>
+        
+    </LinearLayout>     
+        
+    <TextView 
+        android:id="@+id/lblTitleArticleList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lblTitleStock"
+        android:background="#EFEFEF"
+        style="@style/StockPhoneTextTitleAppearance"
+        android:gravity="center_horizontal"/>
+    
+    <ListView
+        android:id="@+id/lstvSummaryArticle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/ListView">
+    </ListView>
+    
+    <ImageView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:src="@drawable/ic_stockphone_letter"/>   
+
+</LinearLayout>

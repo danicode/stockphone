@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="StockPhoneTheme" parent="android:Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@color/stockphone_background</item>
+        <item name="android:textAppearance">@style/StockPhoneTextAppearance</item>
+    </style>
+
+    <style name="StockPhoneTextAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/stockphone_text_color</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:paddingLeft">7dp</item>
+    </style>
+    
+    <style name="StockPhoneTextTitleAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/stockphone_text_color</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:paddingLeft">7dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="StockPhoneTextPasswordAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/stockphone_text_password_color</item>
+        <item name="android:paddingLeft">7dp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:visibility">invisible</item>
+        <item name="android:listSelector">@android:drawable/list_selector_background</item>
+    </style>
+    
+    <style name="StockPhoneTextPasswordLandAppearance" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/stockphone_text_password_color</item>
+        <item name="android:paddingLeft">7dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:visibility">invisible</item>
+    </style>          
+
+    <style name="ListView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/stockphone_item_background</item>
+        <item name="android:cacheColorHint">@color/stockphone_item_background</item>
+        <item name="android:listSelector">@drawable/list_selector</item>
+    </style>    
+        
+</resources>

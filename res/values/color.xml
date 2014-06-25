@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="stockphone_background">#CFCFCF</color>   
+	<color name="stockphone_text_color">#000</color>
+	<color name="stockphone_item_selected">#FB6C00</color> 
+	<color name="stockphone_item_background">#DFDFDF</color>
+	<color name="stockphone_text_password_color">#D00</color>
+</resources>

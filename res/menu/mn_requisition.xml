@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+	<item 
+	    android:id="@+id/tmOrderRequisiotn"
+	    android:title="@string/tmOrderStock"
+	    android:icon="@drawable/ic_menu_order"/>    
+	    
+	<item 
+	    android:id="@+id/tmFilterRequisition"
+	    android:title="@string/tmFilterStock"
+        android:icon="@drawable/ic_menu_filter"/>
+	
+	<item 
+	    android:id="@+id/tmReturnFrmStock"
+	    android:title="@string/lblReturnFrmStock"
+	    android:icon="@android:drawable/ic_menu_revert"/>
+	
+	<item 
+	    android:id="@+id/tmConfirmListRequisition"
+	    android:title="@string/tmListConfirm"
+        android:icon="@drawable/ic_menu__list_confirm"/>
+
+</menu>

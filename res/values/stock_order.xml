@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="stock_order">
+        <item >Cód. Articulo</item>        
+        <item >Cód. Articulo Proveedor</item>
+        <item >Categoría</item>
+        <item >Proveedor</item>
+    </string-array>
+    
+</resources>

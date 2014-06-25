@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+	<item android:id="@+id/tm_requisition_edit_quantity" android:title="@string/lblEditQuantity"/>
+    <item android:id="@+id/tm_requisition_information_view" android:title="@string/lblStockItemInformationView"/>
+    <item android:id="@+id/tm_requisition_delet_article" android:title="@string/lblDeletArticle"/>
+	
+</menu>

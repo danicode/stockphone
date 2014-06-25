@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StockPhone</string>
+    
+	<!-- RESOURCES INITIAL -->	
+	<string name="lblTitleApp">StockPhone</string>
+	<string name="lblTitleInitial">Ventana Inicial</string>
+	<string name="lblTitleWarning">Advertencia</string>
+	<string name="lblMsgNoDatabase">Actualmente la Aplicación \nNo poseee Base de Datos.\nDebe cargar la Base de Datos en la Memoria SD, \npara poder utilizar la Aplicación.</string>
+	<string name="lblMsgNoMemorySDMonted">No se puede Acceder a la Memoria SD\n\nMemoria SD no Montada o Modo de Almacenamiento USB Activo.\n\nPara poder utilizar la Aplicación, debe Montar la Memoria SD o Desactivar el Modo Almacenamiento USB, en caso de estar Activo.</string>
+    <string name="lblMsgNoMemorySDMontedArticleList">No se puede Acceder a la Memoria SD\n\nMemoria SD no Montada o Modo de Almacenamiento USB Activo.\n\nAclaración: Para poder ver la Lista de Articulos, debe Montar la Memoria SD o Desactivar el Modo Almacenamiento USB, en caso de estar Activo.</string>
+    <string name="lblMsgNoMemorySDMontedLogin">No se puede Acceder a la Memoria SD\n\nMemoria SD no Montada o Modo de Almacenamiento USB Activo.\n\nAclaración: Para poder Logearse al Sistema, debe Montar la Memoria SD o Desactivar el Modo Almacenamiento USB, en caso de estar Activo.</string>
+    <string name="lblMsgNoMemorySDMontedRotate">No se puede Acceder a la Memoria SD\n\nMemoria SD no Montada o Modo de Almacenamiento USB Activo.\n\nAclaración: Para que se Cargue la Lista de Articulos, debe Montar la Memoria SD o Desactivar el Modo Almacenamiento USB, en caso de estar Activo.</string>
+    <string name="lblMsgNoMemorySDMontedCSVGenerated">No se puede Acceder a la Memoria SD\n\nMemoria SD no Montada o Modo de Almacenamiento USB Activo.\n\nAclaración: Para poder Almacenar la Lista de Pedido en la Memoria SD, debe Montar la Memoria SD o Desactivar el Modo Almacenamiento USB, en caso de estar Activo.</string>
+	    
+	<!-- RESOURCES LOGIN -->        
+    <string name="lblLogin">Login</string>
+    <string name="lblUser">Usuario</string>
+	<string name="lblPassword">Clave</string>
+	<string name="btnOk">Aceptar</string>
+	<string name="btnCancel">Cancelar</string>
+	<string name="lblErrorLogin">Error, Cuenta Inexistente</string>
+	<string name="lblErrorLoginUser">Error, Campo Vacio. Debe Ingresar el Usuario</string>
+	<string name="lblErrorLoginPassword">Error, Campo Vacio. Debe Ingresar la Clave</string>
+	<string name="lblErrorLoginUserPassword">Error, Campos Vacios</string>
+	<string name="lblOkLogin">Login Correcto</string>
+	<string name="lblExitMenuItem">StockPhone Cerrandose&#8230;</string>	
+	
+	<!-- RESOURCES MAIN -->	
+	<string name="lblMainArticle">Listar Articulos</string>
+	<string name="lblMainAboutStockPhone">Acerca de StockPhone</string>
+	<string name="lblMainExit">Salir</string>
+	<string name="lblMainMenu">Menú Principal</string>
+	<string name="lblMessageConfirmPressedBackOnFrmMain">¿Desea Volver a la Ventana de Login? \n\nAclaración: en caso afirmativo, deberá loguearse nuevamente para utilizar la Aplicación.</string>
+	<string name="lblMessageConfirmPressedExitOnFrmMain">¿Desea Salir de la Aplicación?</string>
+	    
+	<!-- RESOURCES ABOUT STOCKPHONE -->
+	<string name="lblTitleAboutStockPhone">Acerca de StockPhone</string>
+	<string name="lblTitleContact">Contacto: </string>
+	<string name="lblContact">danielanzawa@gmail.com</string>
+	<string name="lblTitleDeveloper">Desarrollador</string>
+	<string name="lblSubTitleAndroidVersion">Versión de Android: </string>
+	<string name="lblAndroidVersion">V2.1</string>
+	<string name="lblAndroidVersionExplanation">Esto le permite ejecutar la aplicación en dispositivos Android que contengan la version de Android V2.1 o superior.</string>
+	<string name="lblTitleTechniqueSpecification">Características Técnicas</string>
+	<string name="lblTechniqueSpecification">StockPhone es un aplicativo móvil desarrollado con la tecnologia Android.</string>
+	<string name="lblDeveloper">Técnico Programador Anzawa, Daniel José.</string>	
+	<string name="lblTitleStockPhoneUse">¿Para qué se utilizaría StockPhone?</string>
+	<string name="lblStockPhoneUse">StockPhone nos sirve para realizar el control de stock de la organización. 
+	    El mismo consiste en generar un archivo CSV (archivo separado por coma), en el cual se listara 
+	    los articulos con sus cantidades, para realizar el pedido a sus respectivos proveedores. 
+	    Para ello se debe seleccionar previamente de una lista de articulos aquellos ha ser respuestos.</string>	
+	    
+	<!-- RESOURCES STOCK -->
+	<string name="lblTitleStock">Lista de Articulos</string> 
+	<string name="lblOrder">A-Z:</string>
+	<string name="lblFilter">Filtro:</string>
+	<string name="lblSerchArticle">Buscar Articulo&#8230;</string>
+	<string name="tmFilterArticle">Tipo de Filtrado</string>
+	<string name="tmOrderArticle">Tipo de ordenamiento</string>
+	<string name="lblTitleMenuStock">Opciones</string>
+	<string name="lblValuePreferenceStockCategory">Categoria</string>
+	<string name="lblValuePreferenceStockCodArticle">Cód. Articulo</string>
+	<string name="lblValuePreferenceStockCodArticleProvider">Cód. Art. Prov.</string>
+	<string name="lblValuePreferecnceStockProvider">Proveedor</string>
+	<string name="lblValuePreferenceStockDescription">Descripción</string>
+	<string name="lblStockItemCodArticle">Cód. Art.:</string>
+	<string name="lblStockItemDescription">Desc.:</string>
+	<string name="lblStockItemCodArticleProvider">Cód. Art. Prov.:</string>
+	<string name="tmOrderStock">Tipo de Ordenamiento</string>
+	<string name="tmFilterStock">Tipo de Filtrado</string>
+	<string name="tmListView">Ver Lista de Pedido</string>
+	<string name="tmListConfirm">Confirmar Lista de Pedido</string>
+	<string name="lblTitleStockOrder">Elegir Tipo de Ordenamiento</string>
+	<string name="lblTitleStockFilter">Elegir Tipo de Filtrado</string>
+	<string name="lblTitleOption">Opciones</string>
+	<string name="lblStockItemAddRequisitionList">Agregar a la Lista de Pedido</string>
+	<string name="lblStockItemInformationView">Ver Información</string>
+	<string name="lblTitleInformationArticle">Información del Articulo</string>
+	<string name="lblSubTitleCodArtile">Cód. Artitulo:</string>
+	<string name="lblSubTitleCodArticleProvider">Cód. Art. Prov.:</string>
+	<string name="lblSubTitleDescription">Descripción:</string>
+	<string name="lblSubTitleCategory">Categoría:</string>
+	<string name="lblSubTitleProvider">Proveedor:</string>
+	<string name="lblTitleAddQuantity">Agregar Cantidad</string>
+	<string name="lblHintAddQuantity">Escriba aquí la cant. de art&#8230;</string>
+	<string name="lblMsgWarningNoAddQuantity">¡Debe ingresar la cantidad de Articulos!</string>
+	<string name="lblMsgWarningNumZero">¡Debe ingresar una cantidad mayor a cero!</string>
+	<string name="lblWarningAddArticle">¡El articulo que desea agregar, ya se encuentra en la lista!.\n\nEn caso de querer modificarlo o eliminarlo ir a menú y seleccionar Ver Lista de Pedido</string>
+	<string name="lblMessageOkAddArticle">¡Se ha cargado correctamente el articulo!</string>
+	<string name="lblMessageConfirmPressedBack">¿Desea volver al Menú principal? \n\nAclaración: la lista de pedido contiene articulos, los mismos se perderán, en caso de ir al Menú principal</string>
+	<string name="lblMessageLoadArticle">Cargando la Lista de Articulos&#8230;</string>
+	<string name="lblMessageProgressbar">Cargando Lista de Articulos&#8230;</string>
+	
+	<!-- RESOURCES REQUISITION -->
+	<string name="lblTitleRequisition">Lista de Pedido</string>
+	<string name="lblQuantity">Cantidad:</string>
+	<string name="lblMsgVoidList">¡La Lista de Pedido está Vacia!</string>
+	<string name="lblDeletArticle">Eliminar Art. de la Lista</string>    
+	<string name="lblEditQuantity">Editar Cantidad</string>	    
+	<string name="lblMessageOkEditArticle">¡Se ha editado correctamente el articulo!</string>
+	<string name="lblTitleDeleteArticle">Eliminar Articulo</string>
+	<string name="lblMessageDeleteArticle">¿Desea eliminar el articulo?</string>
+	<string name="lblMessageDeleteArticleOk">¡Se ha eliminado correctamente el articulo!</string>
+	<string name="lblReturnFrmStock">Volver Lista de Articulos</string>
+	<string name="lblTitleMessage">Mesaje</string>
+	<string name="lblMessagePressedBack">Para volver a la sección anterior, debe presionar MENU y elegir la sección a la que desea ir</string>
+	
+	<!-- RESOURCES SUMMARY -->
+	<string name="lblSummaryTitleDate">Fecha:</string>
+	<string name="lblDate">Fecha</string>
+	<string name="lblHour">Hora</string>
+	<string name="lblSummaryUser">Usuario:</string>
+	<string name="lblSummaryTitle">Pedido</string>
+	<string name="lblSummaryTitleHour">Hora:</string>
+	<string name="tmGenerateCSV">Generar archivo CSV</string>
+	<string name="lblReturnFrmRequisition">Volver Lista de Pedido</string>
+	<string name="lblSummaryCancelRequistion">Cancelar Pedido</string>
+	<string name="lblSummaryMessageCancel">¿Desea cancelar el pedido?</string>
+	<string name="lblSummaryMessageCancelLisRequisition">¡Se ha cancelado la lista de pedido!</string>
+	<string name="lblSummaryCodArticle">NUMERO</string>
+	<string name="lblSummaryQuantity">CANTIDAD</string>
+	<string name="lblSummaryDescription">DESCRIPCION</string>
+	<string name="lblSummaryProvider">PROVEDOR</string>
+	<string name="lblSummaryCodArticleProvider">NRO DEL PROVEEDOR</string>
+	<string name="lblTitleConfirm">Confirmación</string>
+	<string name="lblMessageConfirm">¿Desea generar el archivo CSV?</string>
+	<string name="lblErrorGenerateCSV">¡Ha ocurrido un error al intentar generar el archivo CSV!</string>
+	<string name="lblTitleError">Error</string>
+	<string name="lblMessageGenerateCSVOK">¡Se ha generado correctamente el archivo CSV!</string>
+	<string name="lblSummaryArticleQuantity">CANTIDAD DE ARTICULOS</string>
+	<string name="lblSummaryTotalQuantity">CANTIDAD TOTAL</string>
+	
+	<!-- RESOURCES MAIL -->
+	<string name="lblSubject">Control de Stock</string>	    
+	<string name="lblText">Archivo CSV con artículos a reponer</string>
+</resources>

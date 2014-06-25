@@ -1,0 +1,994 @@
+!SESSION 2013-11-09 20:23:14.984 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.6.0_27
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_AR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -data C:\Users\dani\workspace\StockPhone -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2013-11-09 20:23:21.017
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-11-09 20:23:21.017
+!MESSAGE A conflict occurred for ALT+CTRL+R:
+Binding(ALT+CTRL+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@14fadb88,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+R,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.CompareWithRevisionCommand,URL...,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@4439bc82,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:23:26.243
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\coffeescript.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:23:26.366
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\css.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:23:26.545
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\capistrano.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:23:26.640
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\heroku.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:23:26.816
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\haml.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:23:27.074
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\bundle-development.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:23:27.140
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\json.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:23:27.207
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\math.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:23:27.277
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\cucumber.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:23:27.341
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\engineyard.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:23:27.406
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\html.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:23:27.492
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\ruby.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:23:27.636
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\rspec.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:23:27.672
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\text.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:23:27.741
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\js.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:23:27.805
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\source.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:23:27.867
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\php.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:23:27.958
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\rails.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:23:28.022
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\sass.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:23:28.080
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\shell-script.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:23:28.139
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\xml.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:23:28.235
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\yaml.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-11-09 20:25:57.601
+!MESSAGE New Project Wizard failed
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:635)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:553)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$2.execute(NewProjectCreator.java:365)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:175)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:287)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:269)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:674)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:620)
+	... 6 more
+Root exception:
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:175)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:287)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:269)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:674)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:620)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:553)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$2.execute(NewProjectCreator.java:365)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Contains: OK
+Contains: C:\Users\dani\workspace\StockPhone overlaps the workspace location: C:\Users\dani\workspace\StockPhone
+!SESSION 2013-11-09 20:26:29.194 -----------------------------------------------
+eclipse.buildId=M20120914-1800
+java.version=1.6.0_27
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_AR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -data C:\Users\dani\workspace\StockPhone -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2013-11-09 20:26:47.432
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-11-09 20:26:47.432
+!MESSAGE A conflict occurred for ALT+CTRL+R:
+Binding(ALT+CTRL+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@5b712492,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+R,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.CompareWithRevisionCommand,URL...,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@61181c24,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:26:59.600
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\coffeescript.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:26:59.756
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\css.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:26:59.880
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\heroku.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:27:00.005
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\math.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:27:00.161
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\bundle-development.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:27:00.224
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\capistrano.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:27:00.286
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\ruby.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:27:00.317
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\haml.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:27:00.411
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\json.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:27:00.489
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\cucumber.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:27:00.551
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\text.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:27:00.614
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\engineyard.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:27:00.738
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\rspec.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:27:00.785
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\html.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:27:00.848
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\js.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:27:01.004
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\php.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:27:01.066
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\rails.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:27:01.113
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\source.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:27:01.160
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\shell-script.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:27:01.222
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\sass.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:27:01.269
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\yaml.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY org.eclipse.core.jobs 4 2 2013-11-09 20:27:01.331
+!MESSAGE An internal error occurred during: "Loading bundle: C:\Program Files\eclipse\configuration\org.eclipse.osgi\bundles\641\2\.cp\bundles\xml.ruble".
+!STACK 0
+org.jruby.embed.EvalFailedException: (LoadError) no such file to load -- ruble/ui
+	at org.jruby.embed.internal.EmbedEvalUnitImpl.run(EmbedEvalUnitImpl.java:127)
+	at org.jruby.embed.ScriptingContainer.runUnit(ScriptingContainer.java:1231)
+	at org.jruby.embed.ScriptingContainer.runScriptlet(ScriptingContainer.java:1224)
+	at com.aptana.scripting.ScriptingEngine.createScriptingContainer(ScriptingEngine.java:101)
+	at com.aptana.scripting.ScriptingEngine.getScriptingContainer(ScriptingEngine.java:230)
+	at com.aptana.scripting.model.ScriptLoadJob.run(ScriptLoadJob.java:76)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:144)
+	at com.aptana.scripting.model.AbstractScriptRunner.run(AbstractScriptRunner.java:180)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:274)
+	at com.aptana.scripting.ScriptingEngine.runScript(ScriptingEngine.java:243)
+	at com.aptana.scripting.model.BundleManager.loadScript(BundleManager.java:2131)
+	at com.aptana.scripting.model.BundleManager$BundleLoadJob.run(BundleManager.java:138)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.jruby.exceptions.RaiseException: (LoadError) no such file to load -- ruble/ui
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-11-09 20:27:48.209
+!MESSAGE 
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not read from source when writing file: C:\Users\dani\workspace\StockPhone\.metadata\.lock
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:55)
+	at org.eclipse.core.filesystem.provider.FileStore.transferStreams(FileStore.java:78)
+	at org.eclipse.core.filesystem.provider.FileStore.copyFile(FileStore.java:222)
+	at org.eclipse.core.filesystem.provider.FileStore.copy(FileStore.java:143)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.copy(LocalFile.java:111)
+	at org.eclipse.core.filesystem.provider.FileStore.copyDirectory(FileStore.java:181)
+	at org.eclipse.core.filesystem.provider.FileStore.copy(FileStore.java:141)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.copy(LocalFile.java:111)
+	at org.eclipse.core.filesystem.provider.FileStore.copyDirectory(FileStore.java:181)
+	at org.eclipse.core.filesystem.provider.FileStore.copy(FileStore.java:141)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.copy(LocalFile.java:111)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.FileStoreAdapter.copy(FileStoreAdapter.java:68)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.populate(NewProjectCreator.java:613)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:699)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:620)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:553)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$2.execute(NewProjectCreator.java:365)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+Caused by: java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(Unknown Source)
+	at org.eclipse.core.filesystem.provider.FileStore.transferStreams(FileStore.java:75)
+	... 19 more
+!SUBENTRY 1 org.eclipse.core.filesystem 4 271 2013-11-09 20:27:48.209
+!MESSAGE Could not read from source when writing file: C:\Users\dani\workspace\StockPhone\.metadata\.lock
+!STACK 0
+java.io.IOException: The process cannot access the file because another process has locked a portion of the file
+	at java.io.FileInputStream.readBytes(Native Method)
+	at java.io.FileInputStream.read(Unknown Source)
+	at org.eclipse.core.filesystem.provider.FileStore.transferStreams(FileStore.java:75)
+	at org.eclipse.core.filesystem.provider.FileStore.copyFile(FileStore.java:222)
+	at org.eclipse.core.filesystem.provider.FileStore.copy(FileStore.java:143)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.copy(LocalFile.java:111)
+	at org.eclipse.core.filesystem.provider.FileStore.copyDirectory(FileStore.java:181)
+	at org.eclipse.core.filesystem.provider.FileStore.copy(FileStore.java:141)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.copy(LocalFile.java:111)
+	at org.eclipse.core.filesystem.provider.FileStore.copyDirectory(FileStore.java:181)
+	at org.eclipse.core.filesystem.provider.FileStore.copy(FileStore.java:141)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.copy(LocalFile.java:111)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.FileStoreAdapter.copy(FileStoreAdapter.java:68)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$3.populate(NewProjectCreator.java:613)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createEclipseProject(NewProjectCreator.java:699)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.createProjectAsync(NewProjectCreator.java:620)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator.access$0(NewProjectCreator.java:553)
+	at com.android.ide.eclipse.adt.internal.wizards.newproject.NewProjectCreator$2.execute(NewProjectCreator.java:365)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(WorkspaceModifyOperation.java:106)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:118)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-11-09 20:27:48.318
+!MESSAGE Failed to load properties file for project 'com.view.initial.FrmInitial'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-11-09 20:27:48.459
+!MESSAGE Failed to load properties file for project 'com.view.initial.FrmInitial'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-11-09 20:27:48.506
+!MESSAGE Failed to load properties file for project 'com.view.initial.FrmInitial'

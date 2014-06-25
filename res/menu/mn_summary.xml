@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	
+	<item 
+	    android:id="@+id/tmSummaryReturnFrmStock"
+	    android:title="@string/lblReturnFrmStock"
+	    android:icon="@android:drawable/ic_menu_revert"/>
+	
+	<item 
+	    android:id="@+id/tmSummaryReturnFrmRequisition"
+	    android:title="@string/lblReturnFrmRequisition"
+	    android:icon="@android:drawable/ic_menu_revert"/>
+	
+	<item 
+	    android:id="@+id/tmSummaryGenerateCSV"
+	    android:title="@string/tmGenerateCSV"
+        android:icon="@drawable/ic_menu_csv"/>
+	
+	<item 
+	    android:id="@+id/tmSummaryCancelRequisition"
+	    android:title="@string/lblSummaryCancelRequistion"
+	    android:icon="@drawable/ic_menu_cancel"/>
+
+</menu>

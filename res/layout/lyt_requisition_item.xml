@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="@string/lblStockItemCodArticle"
+            style="@style/StockPhoneTextTitleAppearance"/>
+
+        <TextView
+            android:id="@+id/lblRequisitionItemCodArticle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cod. article"
+            android:paddingRight="7dp"
+            style="@style/StockPhoneTextAppearance" />
+        
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:text="@string/lblStockItemCodArticleProvider"
+            style="@style/StockPhoneTextTitleAppearance"/>
+        
+        <TextView
+            android:id="@+id/lblRequisitionItemCodArticleProvider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cod. article provider"
+            android:paddingRight="7dp"
+            style="@style/StockPhoneTextAppearance" />
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lblStockItemDescription"
+            style="@style/StockPhoneTextTitleAppearance"/>
+
+        <TextView
+            android:id="@+id/lblRequisitionItemDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="description"
+            style="@style/StockPhoneTextAppearance" />
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <TextView 
+       		android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/lblQuantity"
+        	style="@style/StockPhoneTextTitleAppearance"/>
+    
+    	<TextView 
+        	android:id="@+id/lblRequisitionItemQuantity"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="cantidad"
+        	style="@style/StockPhoneTextAppearance"/>
+        
+    </LinearLayout>   	
+
+</LinearLayout>
