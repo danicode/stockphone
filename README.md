@@ -113,7 +113,7 @@ Fig. 3: Ventana de Login.
 
 ![alt tag](https://dl.dropboxusercontent.com/u/94597454/stockphone/ventana_menu_principal.png)
 
-    Fig. 4: Ventana Menú Principal.
+Fig. 4: Ventana Menú Principal.
     
 4.3	Sección Lista de Artículos: en esta sección veremos la lista de artículos que cuenta la organización, los datos de cada artículo son: código de artículo, descripción y código de artículo del proveedor. 
 
@@ -123,7 +123,7 @@ Fig. 3: Ventana de Login.
 
 Explicación de los componentes de esta sección:
 
-    En la parte superior de la ventana tenemos dos etiquetas, una de ellas A-Z: nos dice el tipo de ordenamiento al filtrar la lista y la otra etiqueta es Filtro: nos indica el tipo de filtro. 
+   En la parte superior de la ventana tenemos dos etiquetas, una de ellas A-Z: nos dice el tipo de ordenamiento al filtrar la lista y la otra etiqueta es Filtro: nos indica el tipo de filtro. 
 
    La caja de texto nos sirve para introducir la palabra clave para buscar algún artículo dependiendo el tipo de filtrado.
 
@@ -150,7 +150,7 @@ Fig. 7: Menú de la ventana de lista de artículos.
     Aquí podrá buscar el artículo que desea reponer seleccionarlo y agregarlo a la lista de pedido al igual que la sección de lista de artículos. También podrá editar la cantidad de artículos o su eliminación.
 Explicación de los componentes de esta sección:
 
-    En la parte superior de la ventana tenemos dos etiquetas, una de ellas A-Z: nos dice el tipo de ordenamiento al filtrar la lista y la otra etiqueta es Filtro: nos indica el tipo de filtro. 
+   En la parte superior de la ventana tenemos dos etiquetas, una de ellas A-Z: nos dice el tipo de ordenamiento al filtrar la lista y la otra etiqueta es Filtro: nos indica el tipo de filtro. 
 
    La caja de texto nos sirve para introducir la palabra clave para buscar algún artículo dependiendo el tipo de filtrado.
 
@@ -182,7 +182,7 @@ Fig. 10: Menú de la ventana Lista de Pedido.
 
 Explicación de los componentes de esta sección:
 
-    En la parte superior de la ventana tenemos el nombre del usuario, así como la fecha y hora de generación del archivo CSV, Debajo de este encabezado tenemos la lista de pedido con los artículos a reponer, con sus respectivos datos (cód. artículo, cód. art. Proveedor, descripción y cantidad de cada artículo).
+   En la parte superior de la ventana tenemos el nombre del usuario, así como la fecha y hora de generación del archivo CSV, Debajo de este encabezado tenemos la lista de pedido con los artículos a reponer, con sus respectivos datos (cód. artículo, cód. art. Proveedor, descripción y cantidad de cada artículo).
 
 ![alt tag](https://dl.dropboxusercontent.com/u/94597454/stockphone/ventana_confirmar_pedido.png)
 
@@ -194,7 +194,7 @@ Acciones que se pueden realizar
 
 ![alt tag](https://dl.dropboxusercontent.com/u/94597454/stockphone/menu_ventana_confirmar_pedido.png)
 
-    Fig. 12: Menú de la Ventana Confirmar Pedido. 
+Fig. 12: Menú de la Ventana Confirmar Pedido. 
 
    Si presiona confirmar el pedido se abrirá una nueva ventana solicitando la confirmación del mismo, en caso afirmativo se generara el archivo CSV, el mismo se creara en el directorio de la aplicación. Aclaración: el directorio de la aplicación se encuentra en la memoria externa sd por ej.: sd -> stockphone puede variar el nombre del primer directorio dad las versiones de Android, pero siempre sigue este esquema de directorios.
 
